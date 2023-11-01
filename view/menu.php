@@ -19,7 +19,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="inicio.php"><img class="img-responsive logo img-thumbnail" src="../img/phpoo.png" alt="" width="200px" height="150px"></a>
+          <a class="navbar-brand" href="inicio.php"><img class="img-responsive logo img-thumbnail" src="../img/ALMOXARIFADO-VIRTUAL_FINAL_72dpi.png" alt="" width="200px" height="150px"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
 
@@ -44,7 +44,7 @@
 
            <li><a href="clientes.php"><span class="glyphicon glyphicon-user"></span> Clientes</a>
           </li>
-          <li><a href="#"><span class="glyphicon glyphicon-usd"></span> Menu 3</a>
+          <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Saida</a>
           </li>
           
           <li class="dropdown" >

@@ -13,11 +13,11 @@ require_once "../../classes/conexao.php";
 
 
 <table class="table table-hover table-condensed table-bordered" style="text-align: center;">
-	<caption><label>Clientes</label></caption>
+	<caption><label>Servidores</label></caption>
 	<tr>
 			<td>Nome</td>
-	 		<td>Sobrenome</td>
-	 		<td>Endereço</td>
+	 		<td>Setor</td>
+	 		<td>Andar</td>
 	 		<td>Email</td>
 	 		<td>Telefone</td>
 	 		<td>CPF</td>

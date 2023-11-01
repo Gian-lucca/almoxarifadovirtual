@@ -13,15 +13,15 @@ if(isset($_SESSION['usuario'])){
 	</head>
 	<body>
 		<div class="container">
-			<h1>Clientes</h1>
+			<h1>Servidores</h1>
 			<div class="row">
 				<div class="col-sm-4">
 					<form id="frmClientes">
 						<label>Nome</label>
 						<input type="text" class="form-control input-sm" id="nome" name="nome">
-						<label>Sobrenome</label>
+						<label>Setor</label>
 						<input type="text" class="form-control input-sm" id="sobrenome" name="sobrenome">
-						<label>Endereço</label>
+						<label>Andar</label>
 						<input type="text" class="form-control input-sm" id="endereco" name="endereco">
 						<label>Email</label>
 						<input type="text" class="form-control input-sm" id="email" name="email">
@@ -55,9 +55,9 @@ if(isset($_SESSION['usuario'])){
 							<input type="text" hidden="" id="idclienteU" name="idclienteU">
 							<label>Nome</label>
 							<input type="text" class="form-control input-sm" id="nomeU" name="nomeU">
-							<label>Sobrenome</label>
+							<label>Setor</label>
 							<input type="text" class="form-control input-sm" id="sobrenomeU" name="sobrenomeU">
-							<label>Endereço</label>
+							<label>Andar</label>
 							<input type="text" class="form-control input-sm" id="enderecoU" name="enderecoU">
 							<label>Email</label>
 							<input type="text" class="form-control input-sm" id="emailU" name="emailU">

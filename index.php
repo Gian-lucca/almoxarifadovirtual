@@ -33,7 +33,7 @@
 					<div class="panel panel-heading">Almoxarifado Virtual</div>
 					<div class="panel panel-body">
 						<p>
-							<img src="img/phpoo.png"  width="100%">
+							<img src="img/ALMOXARIFADO-VIRTUAL_FINAL_72dpi.png"  width="100%">
 						</p>
 						<form id="frmLogin">
 							<label>Email</label>
