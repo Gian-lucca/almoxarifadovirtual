@@ -42,7 +42,7 @@
        
 
 
-           <li><a href="clientes.php"><span class="glyphicon glyphicon-user"></span> Clientes</a>
+           <li><a href="clientes.php"><span class="glyphicon glyphicon-user"></span> Servidores</a>
           </li>
           <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Saida</a>
           </li>
@@ -50,7 +50,14 @@
           <li class="dropdown" >
             <a href="#" style="color: red"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Usuario:   <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li> <a style="color: red" href="../procedimentos/sair.php"><span class="glyphicon glyphicon-off"></span> Sair</a></li>
+              
+            <?php if($_SESSION['usuario'] == "admin"): ?>
+              
+              <li> <a style="color: red" href="../registrar.php"><span class="glyphicon glyphicon-off"></span> Gestão de Usuários</a></li>
+
+            <?php endif; ?>
+
+            <li> <a style="color: red" href="../procedimentos/sair.php"><span class="glyphicon glyphicon-off"></span> Sair</a></li>
               
             </ul>
           </li>
